@@ -5,12 +5,6 @@
    </p>
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
-    <h3 align="left">install frontend</h3>
-     <p > npm i --force , npm start </p>
-    <p > If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files </p>
-    <h3 align="left">install backend</h3>
-    <p > npm i , npm start </p>
-    <p > MongoDB: you have create database named: schedule_db and collection: user, schedule, notification </p>
 
    <h3 align="left">Languages and Tools:</h3>
    <p align="left">
@@ -53,6 +47,12 @@
             src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40" />
       </a>
    </p>
+      <h3 align="left">install frontend</h3>
+     <p > npm i --force , npm start </p>
+    <p > If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files </p>
+    <h3 align="left">install backend</h3>
+    <p > npm i , npm start </p>
+    <p > MongoDB: you have create database named: schedule_db and collection: user, schedule, notification </p>
    <br/>
    <p align="left">Home page<p/>
    <img src="./src/assets/imgs/1.png" alt="" />
