@@ -53,7 +53,6 @@
     <h3 align="left">install backend</h3>
     <p > npm i , npm start </p>
     <p > MongoDB: you have create database named: schedule_db and collection: user, schedule, notification </p>
-   <br/>
    <p align="left">Home page<p/>
    <img src="./src/assets/imgs/1.png" alt="" />
  <br/>
