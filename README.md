@@ -1,7 +1,7 @@
    <h1 align="left">Schedule Your Day</h1>
    <p >
       Is the perfect companion for school, college or university. <br>
-      in simple signup you can build your perfect online week schedule
+      in simple signup you can build your perfect online week schedule  <br>
       **NEW** YOU CAN SCHEDULE YOUU NOTIFICATIONS
    </p>
 
