@@ -6,9 +6,8 @@
    </p>
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
-   <p >
-      create new user or use email: demo@demo.com, pass: 1111
-
+   <p style={{color: red}}>
+      Create new user or use email: demo@demo.com, pass: 1111
    </p>
 
    <h3 align="left">Languages and Tools:</h3>
