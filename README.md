@@ -5,10 +5,7 @@
       **NEW** YOU CAN SCHEDULE YOUU NOTIFICATIONS
    </p>
 
-   <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay (Create new user or use email: demo@demo.com, pass: 1111 )</a>  
-   <p style="color:red">
-      ******* Create new user or use email: demo@demo.com, pass: 1111 *******
-   </p>
+   <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay (DEMO email: demo@demo.com, pass: 1111 )</a>  
 
    <h3 align="left">Languages and Tools:</h3>
    <p align="left">(React.js last version (18), PWA+notification )</p>
