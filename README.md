@@ -8,6 +8,8 @@
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
 
    <h3 align="left">Languages and Tools:</h3>
+   <p align="left">(React.js last version (18), PWA+notification )</p>
+
    <p align="left">
     <a href="" target="_blank" rel="noreferrer"> <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/220px-Progressive_Web_Apps_Logo.svg.png" alt="pwa"
