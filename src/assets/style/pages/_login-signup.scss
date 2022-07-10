@@ -1,0 +1,25 @@
+.login-signup {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+
+    img {
+      position: absolute;
+      opacity: 0.3;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      max-width: 700px;
+      width: 100%;
+   }
+
+   .msg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      color: #121212;
+      font-weight: bolder;
+      font-size: 14px;
+   }
+}

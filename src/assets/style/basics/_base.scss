@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+ }
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Livvic-Regular;
+  background-color: #F2F2F2;
+  margin: 0;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

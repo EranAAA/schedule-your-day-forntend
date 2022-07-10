@@ -1,0 +1,26 @@
+// SETUP
+@import './setup/functions';
+@import './setup/typography';
+@import './setup/variables';
+
+// BASICS
+@import './basics/base';
+
+// PAGES
+@import './pages/app-schedule';
+@import './pages/task-details';
+@import './pages/schedule-details';
+@import './pages/notification-details';
+@import './pages/home-page';
+@import './pages/login-signup';
+
+// COMPONENTS
+@import './cmps/task-grid-template';
+@import './cmps/schedule-header';
+@import './cmps/schedule-filter';
+@import './cmps/schedule-list';
+@import './cmps/task-list';
+@import './cmps/task-preview';
+@import './cmps/schedule-preview-days';
+@import './cmps/schedule-preview-hours';
+

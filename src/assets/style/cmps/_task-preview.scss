@@ -1,0 +1,88 @@
+.task-container {
+   position: relative;
+   margin: 1px;
+
+   .task-preview {
+      border-radius: 5px;
+      font-size: 13px;
+      cursor: pointer;
+      resize: none;
+      padding-left: 10px;
+      font-family: Livvic-Regular;
+      border: unset;
+      width: 100%;
+      height: 100%;
+
+      &:hover {
+         box-shadow: 0 0 1px 1px;
+      }
+
+      &:focus {
+         background-image: unset !important;
+         background-color: beige !important;
+         color: #121212 !important;
+      }
+   }
+
+   .display-time {
+      position: absolute;
+      bottom: 22px;
+      right: 0;
+      padding-right: 5px;
+
+      color: #121212;
+      font-size: 12px;
+   }
+
+   .icons {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 0px 0px 5px 5px;
+      margin-bottom: 0;
+      height: 20px;
+
+      .task-preview-btn {
+         font-size: 13px;
+         border: unset;
+         background-color: unset;
+         font-family: Livvic-Regular;
+      }
+
+      .info {
+         display: flex;
+         gap: 5px;
+
+         .task-preview-desc {
+            font-size: 13px;
+            border: unset;
+            background-color: unset;
+            font-family: Livvic-Regular;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+
+            svg {
+               height: 16px;
+               width: 16x;
+            }
+         }
+
+         .task-preview-important {
+            font-size: 13px;
+            border: unset;
+            background-color: unset;
+            font-family: Livvic-Regular;
+            display: flex;
+            align-items: center;
+
+            svg {
+               height: 15px;
+               width: 15px;
+            }
+         }
+      }
+   }
+}

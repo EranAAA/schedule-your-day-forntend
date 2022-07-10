@@ -1,0 +1,162 @@
+.task-details {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(18, 18, 18, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   .details-contianer {
+      height: 550px;
+      width: 700px;
+      min-height: 400px;
+      min-width: 370px;
+      background-color: #f8f8ff;
+      border-radius: 5px;
+      position: relative;
+
+      .close-btn {
+         position: absolute;
+         right: 0;
+         top: 5px;
+         border: unset;
+         background-color: unset;
+         padding: 10px;
+      }
+
+      .title {
+         text-align: center;
+         padding: 10px;
+         font-size: 20px;
+         border-radius: 5px 5px 0px 0px;
+      }
+
+      p {
+         width: 97%;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         padding-bottom: 0px;
+      }
+
+      .schedule-container {
+         width: 97%;
+         padding-left: 10px;
+         padding-bottom: 10px;
+         position: relative;
+
+         .schedule {
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+         }
+
+         .important-container {
+            position: absolute;
+            top: 13px;
+            right: -6px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+         }
+      }
+
+      .description-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         .description {
+            font-size: 13px;
+            cursor: pointer;
+            resize: none;
+            padding-left: 10px;
+            font-family: Livvic-Regular;
+            margin: 1px;
+            border: unset;
+            width: 97%;
+            height: 140px;
+            background-color: unset;
+            box-shadow: 0 0 2px 0px;
+
+            &:focus {
+               background-color: beige !important;
+            }
+         }
+      }
+
+      .bgc-container {
+         padding-top: 10px;
+         padding-left: 10px;
+         gap: 5px;
+
+         span {
+            color: gray;
+            font-size: 13px;
+         }
+
+         .color {
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px;
+
+            button {
+               width: 50px;
+               height: 25px;
+               border: unset;
+               border-radius: 3px;
+               padding-left: 10px;
+
+               &:hover:after {
+                  content: '✓';
+                  color: white;
+               }
+            }
+         }
+
+         .btn-pixel-container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px;
+         }
+
+         .btn-pixel {
+            width: 50px;
+            height: 25px;
+            border: unset;
+            border-radius: 3px;
+            padding-left: 10px;
+
+            &:hover {
+               box-shadow: 0 0 2px 0pxs;
+            }
+
+         }
+      }
+
+      .remove-container {
+         display: flex;
+         padding-top: 10px;
+         justify-content: center;
+
+         .remove-btn {
+            background-color: #ff63478f;
+            padding: 4px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+               background-color: tomato;
+            }
+         }
+      }
+
+      .open-dialog-btn {
+         &:hover {
+            background-color: unset;
+         }
+      }
+
+   }
+}

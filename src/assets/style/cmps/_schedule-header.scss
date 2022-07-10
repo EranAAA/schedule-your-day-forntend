@@ -1,0 +1,41 @@
+.schedule-header {
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   border-bottom: 1px solid #1212123d;
+
+   // h1 {
+   //    font-family: Livvic-Italic;
+   //    font-size: 25px;
+   //    margin-left: 10px;
+   // }
+
+   img {
+      height: 40px;
+      margin-left: 10px;
+   }
+
+   .user-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .user-name {
+         line-height: 1px;
+      }
+
+      .logout {
+         margin-right: 10px;
+         cursor: pointer;
+
+         svg {
+            width: 36px;
+            height: 34px;
+         }
+      }
+   }
+}
