@@ -6,10 +6,10 @@
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
     <h3 align="left">install frontend</h3>
-     <p > npm i --force   ==>   npm start </p>
+     <p > npm i --force , npm start </p>
     <p > if you want to use cloud megging with fire base you have to create new firebase project, getr the configs and pass to the relevnt files </p>
     <h3 align="left">install backend</h3>
-    <p > npm i ==> npm start </p>
+    <p > npm i , npm start </p>
     <p > MongoDB: you have create database named: schedule_db and collection: user, schedule, notification </p>
 
    <h3 align="left">Languages and Tools:</h3>
