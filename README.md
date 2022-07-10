@@ -2,6 +2,7 @@
    <p >
       Is the perfect companion for school, college or university. <br>
       in simple signup you can build your perfect online week schedule
+      **NEW** YOU CAN SCHEDULE YOUU NOTIFICATIONS
    </p>
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
