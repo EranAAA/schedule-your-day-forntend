@@ -58,7 +58,7 @@ To experiment with the Notification Triggers API locally, without an origin tria
     <p > If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files </p>
     <h3 align="left">install backend</h3>
     <p > npm i , npm start </p>
-    <p > MongoDB: you have create database named: schedule_db and collection: user, schedule, notification </p>
+    <p > MongoDB: you have to create database named: schedule_db and collection: user, schedule, notification </p>
      <br/>
  <br/>
 
