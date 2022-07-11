@@ -9,7 +9,6 @@
   
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
-(DEMO email: demo@demo.com password: 1111 )
 
    <h3 align="left">Languages and Tools:</h3>
    <p align="left">(React.js last version (18), PWA+notification )</p>
