@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: Livvic-Regular;
-  background-color: #F2F2F2;
+  background-color: $bg-clr1;
   margin: 0;
   user-select: none;
 }
@@ -34,3 +34,5 @@ ul {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+// #FF8ED4

@@ -1,11 +1,11 @@
 .days-section {
    position: sticky;
    top: 0;
-   background-color: #F2F2F2;
+   background-color: $bg-clr1;
    z-index: 1;
 
    .days-container {
-      background-color: #FFF;
+      background-color: $bg-clr2;
       display: flex;
       margin-left: 35px;
       padding-top: 0px;
@@ -19,10 +19,8 @@
          min-width: 100px;
          text-align: center;
          padding: 10px;
-         // border-bottom: 2px solid gray;
-         // border-right: 2px solid gray;
          box-shadow: 0 1px 1px 0px;
-         background-color: #FFF;
+         background-color: $bg-clr2;
       }
    }
 

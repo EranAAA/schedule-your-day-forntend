@@ -4,7 +4,7 @@
 
    .task-preview {
       border-radius: 5px;
-      font-size: 13px;
+      font-size: rem(13px);
       cursor: pointer;
       resize: none;
       padding-left: 10px;
@@ -19,8 +19,8 @@
 
       &:focus {
          background-image: unset !important;
-         background-color: beige !important;
-         color: #121212 !important;
+         background-color: $bg-clr6 !important;
+         color: $clr1 !important;
       }
    }
 
@@ -30,8 +30,8 @@
       right: 0;
       padding-right: 5px;
 
-      color: #121212;
-      font-size: 12px;
+      color: $clr1;
+      font-size: rem(12px);
    }
 
    .icons {
@@ -45,7 +45,7 @@
       height: 20px;
 
       .task-preview-btn {
-         font-size: 13px;
+         font-size: rem(13px);
          border: unset;
          background-color: unset;
          font-family: Livvic-Regular;
@@ -56,7 +56,7 @@
          gap: 5px;
 
          .task-preview-desc {
-            font-size: 13px;
+            font-size: rem(13px);
             border: unset;
             background-color: unset;
             font-family: Livvic-Regular;
