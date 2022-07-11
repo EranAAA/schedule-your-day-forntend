@@ -3,10 +3,10 @@
       Is the perfect companion for school, college or university. <br>
       in simple signup you can build your perfect online week schedule  <br>
    
-      **NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS  <br>
+      **NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS
       (Enabling via about://flags #
-         To experiment with the Notification Triggers API locally, without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
-            </p>
+      To experiment with the Notification Triggers API locally, without an origin trial token, enable the #enable-experimental-web-platform-features             flag in about://flags.)
+  
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
 (DEMO email: demo@demo.com password: 1111 )
