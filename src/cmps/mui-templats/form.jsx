@@ -13,11 +13,11 @@ import { utilService } from "../../services/util.service";
 
 export const Form = ({ tasks, onScheduleNotification }) => {
 
-   if (!tasks) return
+   if (!tasks.length) return
 
-   const [task, setTask] = useState(tasks[0])
-   const [title, setTitle] = useState(tasks[0].title)
-   const [body, setBody] = useState(tasks[0].description)
+   const [task, setTask] = useState(tasks[0] || {})
+   const [title, setTitle] = useState(tasks[0].title || '')
+   const [body, setBody] = useState(tasks[0].description || '')
    const [time, setTime] = useState(Date.now())
 
    const handleChange = (ev) => {

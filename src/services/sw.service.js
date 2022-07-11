@@ -13,8 +13,8 @@ export const notificationScheduled = async (title, body, tag, time) => {
             body,
             tag,
             showTrigger: new TimestampTrigger(time),
-            icon: '../../public/logo.png',
-            image: '../../public/logo.png',
+            icon: '../assets/imgs/logo.png',
+            image: '../assets/imgs/logo.png',
             requireInteraction: true
          })
       return registration

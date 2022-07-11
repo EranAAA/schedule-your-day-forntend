@@ -14,7 +14,7 @@ export const Table = ({ notifications, onNotificationCanceled }) => {
 
    const columns = [
       { field: 'tag', headerName: 'Tag', width: 70 },
-      { field: 'title', headerName: 'title', width: 130 },
+      { field: 'title', headerName: 'Title', width: 130 },
       { field: 'body', headerName: 'Body', width: 200 },
       { field: 'time', headerName: 'Time', width: 150 },
       {

@@ -21,7 +21,6 @@ export const TaskDetails = () => {
    const onClose = (ev) => {
       ev.stopPropagation();
       ev.preventDefault();
-
       navigate(-1)
    }
 
@@ -83,7 +82,7 @@ export const TaskDetails = () => {
       } else if (task.styles.stripStyle === 'strip-horizental') {
          return {
             backgroundImage: `linear-gradient(rgba(255, 255, 255, .6) 50%, transparent 50%, transparent)`,
-            backgroundSize: '50px 16px'
+            backgroundSize: '50px 20px'
          }
       } else {
          return {
@@ -145,7 +144,7 @@ export const TaskDetails = () => {
                   <button onClick={() => onPickColorBgc('strip-horizental')}
                      style={{
                         backgroundImage: 'linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent)',
-                        backgroundSize: '50px 16px',
+                        backgroundSize: '50px 10px',
                         backgroundColor: `${task.styles.backgroundColor}`
                      }}>
                   </button>
@@ -155,7 +154,7 @@ export const TaskDetails = () => {
                         backgroundColor: `${task.styles.backgroundColor}`
                      }}>
                   </button>
-                  <button onClick={() => onPickColorBgc('none')} style={{ backgroundColor: `#FFF` }}>None</button>
+                  <button onClick={() => onPickColorBgc('none')} style={{ backgroundColor: `#FFFFFF` }}>None</button>
                </div>
             </div>
 

@@ -42,6 +42,7 @@ export const AppSchedule = () => {
       newSchedule.createdBy._id = user._id
       newSchedule.createdBy.fullname = user.fullname
       newSchedule.createdBy.email = user.email
+      
       const newScheduleCreated = await dispatch(addSchedule(newSchedule))
       setSchedules([...schedules, newScheduleCreated])
       navigate(`/schedule/${newScheduleCreated._id}`)
@@ -70,6 +71,8 @@ export const AppSchedule = () => {
       saveTasks[taskIdx] = task
       saveSchedule.tasks = saveTasks
 
+      const savedSchedules = schedules.map( schedule => schedule._id === saveSchedule._id ? saveSchedule : schedule)
+      setSchedules(savedSchedules)
       await dispatch(updateSchedule(saveSchedule))
    }
 
@@ -87,7 +90,6 @@ export const AppSchedule = () => {
       } else {
          const updatedSchedules = schedules.filter(schedule => schedule._id !== scheduleId)
          navigate(`/schedule/${updatedSchedules[updatedSchedules.length - 1]._id}`)
-         // debugger
          await dispatch(removeSchedule(scheduleId))
          setSchedules([...updatedSchedules])
       }
@@ -128,7 +130,6 @@ export const AppSchedule = () => {
             <ScheduleList schedule={schedule} />
          </Context.Provider>
          <Outlet context={{ schedules, schedule, saveSchedule, removeTask, updateTask, deleteSchedule }} />
-
       </main>
    )
 }

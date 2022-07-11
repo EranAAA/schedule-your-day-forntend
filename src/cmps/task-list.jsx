@@ -23,7 +23,6 @@ export const TaskList = ({ tasks, template, hours }) => {
          if (target.className === 'task-grid-template') {
             target.classList.add('select-cell')
             grids.current.push(target.style.gridArea.substring(0, 6))
-            
          }
       }
    }
@@ -59,6 +58,7 @@ export const TaskList = ({ tasks, template, hours }) => {
    if (!tasks) return
    if (!template) return
 
+   
    return (
       <ul className='task-list' ref={elementRef} onMouseDown={startNewSchedule} onClick={endNewSchedule} onMouseUp={onEndMouseEvent} >
          {hours.map((hour, idx) => <SchedulePreviewHour key={idx} hour={hour} idx={idx} earlierTaskHour={earlierTaskHour} />)}

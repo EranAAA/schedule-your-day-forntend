@@ -23,26 +23,28 @@ export const TaskPreview = ({ task }) => {
 
    const onUpdateTask = (ev) => {
       if (ev.keyCode === 13 && ev.shiftKey === false) {
-         ev.preventDefault();
+         ev.preventDefault()
          ev.target.blur();
-         updateTask(updatedTask)
+         updateTask({...task, title: ev.target.value})
       }
    }
 
    const onUpdateTaskBlur = (ev) => {
       ev.preventDefault();
       ev.target.blur();
-      updateTask(updatedTask)
+      updateTask({...task, title: ev.target.value})
    }
 
    const onToggleBtnDetails = (ev) => {
       ev.stopPropagation()
+      ev.preventDefault()
       if (ev.type === 'mouseover') setIsOverTask(true)
       else if (ev.type === 'mouseout') setIsOverTask(false)
    }
 
    const onMoveToDetails = (ev) => {
       ev.stopPropagation()
+      ev.preventDefault()
       navigate(`./${task.id}`)
    }
 
@@ -63,7 +65,7 @@ export const TaskPreview = ({ task }) => {
       } else if (task.styles.stripStyle === 'strip-horizental') {
          return {
             backgroundImage: `linear-gradient(rgba(255, 255, 255, .6) 50%, transparent 50%, transparent)`,
-            backgroundSize: '50px 16px'
+            backgroundSize: '50px 40px'
          }
       } else {
          return {
@@ -92,7 +94,7 @@ export const TaskPreview = ({ task }) => {
          </textarea>
 
          <div className="display-time">
-            {isOverTask && dateTemplate()}
+            {/*isOverTask &&*/ dateTemplate()}
          </div>
 
          <div className="icons" style={
@@ -101,7 +103,7 @@ export const TaskPreview = ({ task }) => {
                {task.description && <div className='task-preview-desc' ><GoNote /></div>}
                {task?.isImportant && task.isImportant && <div className='task-preview-important' ><FaExclamation /></div>}
             </div>
-            {isOverTask && <button className='task-preview-btn' onClick={onMoveToDetails}>Details</button>}
+            {/*isOverTask &&*/ <button className='task-preview-btn' onClick={onMoveToDetails}>Details</button>}
 
          </div>
 

@@ -23,7 +23,7 @@ export const BasicSelect = ({ schedules, toggleBoard, currentSchedule }) => {
          console.log('cannot find schedule')
       }
    }
-   // debugger
+
    return (
       <Box sx={{ minWidth: 120 }}>
          <FormControl fullWidth>

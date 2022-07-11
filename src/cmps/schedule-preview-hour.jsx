@@ -8,16 +8,13 @@ export const SchedulePreviewHour = ({ hour, idx, earlierTaskHour, tasks }) => {
    const [isCurrentHour, setIsCurrentHour] = useState(false)
 
    useEffect(() => {
-
       if (!earlierTaskHour) {
          if (idx === utilService.getHourNum() - 2) scollToRef.current.scrollIntoView()
       }
       else {
          if (idx === earlierTaskHour - 3) scollToRef.current.scrollIntoView()
       }
-
       if (idx === utilService.getHourNum()) setIsCurrentHour(true)
-
    }, [earlierTaskHour, tasks])
 
    return (
@@ -26,7 +23,9 @@ export const SchedulePreviewHour = ({ hour, idx, earlierTaskHour, tasks }) => {
             gridRow: `${idx + 1}/${idx + 1}`,
             gridColumn: `${1}/${1}`,
             color: `${isCurrentHour && 'red'}`,
-            borderBottom: `${isCurrentHour && '1px solid red '}`
+            textDecoration: `${isCurrentHour && 'overline'}`,
+            height: `${isCurrentHour && '16px'}`
+
          }}>
          {hour.hour}
       </li>
