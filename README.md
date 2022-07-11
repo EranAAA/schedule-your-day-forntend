@@ -4,8 +4,8 @@
       in simple signup you can build your perfect online week schedule  <br>
    
       **NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS
-      (Enabling via about://flags #
-      To experiment with the Notification Triggers API locally, without an origin trial token, enable the #enable-experimental-web-platform-features             flag in about://flags.)
+      (Enabling via about://flags To experiment with the Notification Triggers API locally, 
+      without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
   
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
