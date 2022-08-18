@@ -63,7 +63,7 @@
  <br/>
 
    <p align="left">Home page<p/>
-   <img src="./src/assets/imgs/1.png" alt="" />
+   <img src="./src/assets/imgs/app_1.png" alt="" />
  <br/>
    <p align="left">Login/Signup page<p/>
    <img src="./src/assets/imgs/2.png" alt="" />
