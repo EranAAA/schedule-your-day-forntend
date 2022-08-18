@@ -9,9 +9,11 @@ in simple signup you can build your perfect online week schedule
 without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
   
 ## Demo
+
 https://schedule-your-day.herokuapp.com/
 
 ## Screenshots
+
    <p align="left"><p/>
 
    <img src="./src/assets/imgs/app_1.png" alt="" />
@@ -19,12 +21,15 @@ https://schedule-your-day.herokuapp.com/
    <p align="left"><p/>
    <img src="./src/assets/imgs/app_2.png" alt="" />
    
+## Tech Stack
 
-   <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
+**Client:** React, Redux, SCSS
 
-   <h3 align="left">Languages and Tools:</h3>
-   <p align="left">(React.js last version (18), PWA+notification )</p>
+**Server:** Node, Express, MongoDB
 
+**Main Dependencies:** socket.io, cors, mui, react-icons, PWA, notification
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/220px-Progressive_Web_Apps_Logo.svg.png
    <p align="left">
     <a href="" target="_blank" rel="noreferrer"> <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/220px-Progressive_Web_Apps_Logo.svg.png" alt="pwa"
