@@ -3,10 +3,6 @@
    
 Is the perfect companion for school, college or university.
 in simple signup you can build your perfect online week schedule
-   
-**NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS
-(Enabling via about://flags To experiment with the Notification Triggers API locally, 
-without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
   
 ## Demo
 
@@ -23,13 +19,12 @@ https://schedule-your-day.herokuapp.com/
    
 ## Tech Stack
 
-**Client:** React, Redux, SCSS
+**Client:** React.js, Redux, SCSS
 
-**Server:** Node, Express, MongoDB
+**Server:** Node.js, MongoDB
 
-**Main Dependencies:** socket.io, cors, mui, react-icons, PWA, notification
+**Main Dependencies:** cors, mui, react-icons, PWA, notification
 
-https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/220px-Progressive_Web_Apps_Logo.svg.png
    <p align="left">
     <a href="" target="_blank" rel="noreferrer"> <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_Logo.svg/220px-Progressive_Web_Apps_Logo.svg.png" alt="pwa"
@@ -66,29 +61,29 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Progressive_Web_Apps_L
             src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40" />
       </a>
    </p>
-      <h3 align="left">install frontend</h3>
       
 ## Deployment
 
-To deploy this project run
+Clone the project - Frontend
 
 ```bash
-    npm install
-    npm start
+  git clone https://github.com/EranAAA/schedule-your-day-forntend.git
+  npm i --force
+  npm start
 ```
 
-## Feedback
-If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files
-install backend
-    <p > npm i , npm start </p>
-    <p > MongoDB: you have to create database named: schedule_db and collection: user, schedule, notification </p>
-     <br/>
- <br/>
+Clone the project - Backend
 
-   <p align="left"><p/>
-   <img src="./src/assets/imgs/app_1.png" alt="" />
+```bash
+  git clone https://github.com/EranAAA/schedule-your-day-backend.git
+  npm i
+  npm start
+```
+MongoDB: 
+Create database: schedule_db
+collection: user, schedule, notification
 
- <br/>
-   <p align="left"><p/>
-   <img src="./src/assets/imgs/app_2.png" alt="" />
+Notification:
+Enabling via about://flags To experiment with the Notification Triggers API locally, 
+without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.
 
