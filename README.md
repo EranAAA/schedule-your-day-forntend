@@ -62,6 +62,8 @@ npm i --force , npm start
 
    <p align="left"><p/>
    <img src="./src/assets/imgs/app_1.png" alt="" />
+   ![App Screenshot](./src/assets/imgs/app_1.png)
+
  <br/>
    <p align="left"><p/>
    <img src="./src/assets/imgs/app_2.png" alt="" />
