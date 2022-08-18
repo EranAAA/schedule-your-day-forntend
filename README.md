@@ -7,7 +7,7 @@ in simple signup you can build your perfect online week schedule
 ## Lessons Learned
 
 I learned how to implement experiment advanced features such as PWA notification, also learnd to implement notification with firebase.
-Working with complex MongoDB DB.
+Working with complex database on MongoDB, user authentication.
 
 ## Demo
 
