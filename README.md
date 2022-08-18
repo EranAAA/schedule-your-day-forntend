@@ -21,7 +21,7 @@
     <a href="" target="_blank" rel="noreferrer"> <img
             src="https://www.seekpng.com/png/small/941-9417062_web-push-notification-delivery-platform-for-web-and.png" alt="pwa"
             width="40" height="40" />
-      </a> <br/>
+      </a>
    <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"
             width="40" height="40" />
