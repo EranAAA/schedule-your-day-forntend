@@ -50,10 +50,12 @@
       </a>
    </p>
       <h3 align="left">install frontend</h3>
+      
     ```bash
     npm install --force
     npm start
     ```
+    
     <p > If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files </p>
     <h3 align="left">install backend</h3>
     <p > npm i , npm start </p>
