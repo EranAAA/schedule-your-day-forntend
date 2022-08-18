@@ -1,12 +1,23 @@
-   <h1 align="left">Schedule Your Day</h1>
-   <p >
-      Is the perfect companion for school, college or university. <br>
-      in simple signup you can build your perfect online week schedule  <br>
+#Schedule Your Day
    
-      **NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS
-      (Enabling via about://flags To experiment with the Notification Triggers API locally, 
-      without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
+Is the perfect companion for school, college or university.
+in simple signup you can build your perfect online week schedule
+   
+**NEW** YOU CAN SCHEDULE YOUR NOTIFICATIONS
+(Enabling via about://flags To experiment with the Notification Triggers API locally, 
+without an origin trial token, enable the #enable-experimental-web-platform-features flag in about://flags.)
   
+## Demo
+https://schedule-your-day.herokuapp.com/
+
+## Screenshots
+   <p align="left"><p/>
+
+   <img src="./src/assets/imgs/app_1.png" alt="" />
+
+   <p align="left"><p/>
+   <img src="./src/assets/imgs/app_2.png" alt="" />
+   
 
    <a target="_blank" rel="noreferrer" href="https://schedule-your-day.herokuapp.com/">ScheduleYourDay</a>  
 
