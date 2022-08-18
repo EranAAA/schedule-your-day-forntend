@@ -51,13 +51,18 @@
    </p>
       <h3 align="left">install frontend</h3>
       
-    ```bash
-    npm install --force
+## Deployment
+
+To deploy this project run
+
+```bash
+    npm install
     npm start
-    ```
-    
-    <p > If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files </p>
-    <h3 align="left">install backend</h3>
+```
+
+## Feedback
+If you want to use cloud messaging with firebase you have to create new firebase project, get the configs and pass to the relevant files
+install backend
     <p > npm i , npm start </p>
     <p > MongoDB: you have to create database named: schedule_db and collection: user, schedule, notification </p>
      <br/>
